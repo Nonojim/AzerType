@@ -12,7 +12,7 @@ function choisirPhraseOuMot(){
 function lancerBoucleDeJeux(listePropositions) {
     let score = 0
     for (let i = 0; i < listePropositions.length; i++) {
-        motUtilisateur = prompt("Entrez le mot : " + listePropositions[i])
+        motUtilisateur = prompt("Entrez le(s) mot(s) : " + listePropositions[i])
         if (motUtilisateur === listePropositions[i]) {
             score ++
         }
