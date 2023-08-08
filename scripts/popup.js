@@ -43,7 +43,7 @@ function initAddEventListenerPopup() {
     // On écoute le click sur la div "popupBackground"
     popupBackground.addEventListener("click", (event) => {
         // Si on a cliqué précisément sur la popupBackground 
-        // (et pas un autre élément qui se trouve dedant)
+        // (et pas un autre élément qui se trouve dedans)
         if (event.target === popupBackground) {
             // Alors on cache la popup
             cacherPopup()
